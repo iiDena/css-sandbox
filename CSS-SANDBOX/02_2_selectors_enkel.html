@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS|Selectors|enkel</title>
+<style>
+    /* body styling */
+    body{background-color: slategray;}
+
+    /* Bruges til classes */
+    .primary-heading{color: violet;}
+
+    /* bruges til ID */
+    #Welcome{background-color: #f4f4f4;}
+
+    #Welcome, #about{
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    /* nested selectors */
+    #Welcome p{ font-size: 20px;}
+    
+
+    #about{color: whitesmoke;}
+
+
+</style>
+</head>
+<body>
+    <div id="Welcome">
+        <h2 class="primary-heading">Welcome</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nulla expedita quas quisquam nostrum ab quos, fuga maiores? Commodi, consequuntur!</p>
+    </div>
+        <div id="about">
+            <h2>About</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum error architecto alias repellat perferendis deleniti aliquam officia quo eum optio.</p>
+        </div>
+</body>
+</html>
